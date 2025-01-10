@@ -1,4 +1,4 @@
-# Revenue Prediction Based on Month
+# Monthly Revenue Prediction Based on Historical Data
 
 ## Project Overview
 This project explores the use of various regression model to predict monthly revenue based on historical data. The dataset ( taken from this project https://github.com/Aminkay95/Retail-Data-Analysis-sql ) includes revenue information for various months, with the goal of building a predictive model that uses the month as a categorical feature. The project demonstrates data preprocessing, model training, evaluation, and interpretation of results. The best-performing model, a Linear Regression model, was saved by serializing it into a file named lr_model.pkl using the pickle library
