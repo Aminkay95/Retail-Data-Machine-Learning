@@ -16,18 +16,18 @@ This project explores the use of various regression model to predict monthly rev
    - The dataset was split into training (80%) and testing (20%) subsets.
 
 ### Model Training
-- A **Linear Regression** model was used to predict revenue based on the one-hot encoded `Month` values.
+- Various models were used to predict revenue based on the one-hot encoded `Month` values.
 
 ### Model Evaluation
-- **Mean Squared Error (MSE)** was used as the primary evaluation metric to measure the average squared difference between actual and predicted revenue values.
-- **R-squared (R²)** was also analyzed to determine the proportion of variance explained by the model.
+- **Mean Squared Error (MSE)** was used as the primary evaluation metric.
+- **R-squared (R²)** was also analyze the performance of the models.
 
 ---
 
 ## Results
 
-- **MSE**: The model achieved an MSE of approximately **76100000000 ** across the various models, indicating large prediction errors.
-- **R-squared**: The R² score was low, suggesting that the models failed to explain the variability in revenue based on the month.
+- **MSE**: An MSE of approximately **76100000000 ** was archieved across the various models, indicating large prediction errors.
+- **R-squared**: The R² score was also low across the models, suggesting that the models failed to explain the variability in revenue based on the month.
 
 ### Key Insights
 1. The high MSE and low R² score suggest poor model performance.
